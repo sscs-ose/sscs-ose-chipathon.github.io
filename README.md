@@ -3,7 +3,7 @@
 Work in progress.
 
 
-<img src="overview.png" width="300"/>
+<img src="overview.png" width="250"/>
 
 
 
