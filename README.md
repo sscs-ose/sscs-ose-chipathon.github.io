@@ -3,7 +3,7 @@
 Work in progress.
 
 
-![](overview.png)
+![](overview.png width="200")
 
 
 
