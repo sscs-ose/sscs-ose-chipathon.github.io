@@ -2,5 +2,5 @@
 
 Work in progress.
 
-Describe desing target here.
+Describe design target here.
 Digital interface to Opal Kelly via shift register.
