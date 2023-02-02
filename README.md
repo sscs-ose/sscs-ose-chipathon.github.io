@@ -1,9 +1,10 @@
 # SSCS “PICO” Open-Source Chipathon
 
-<img src="overview.png" width="250"/>
+<img align="left" width="200" src="overview.png" width="250"/>
 
-Work in progress.
 
-Describe design target here.
 
-Digital interface to Opal Kelly via shift register.
+&nbsp;&nbsp;&nbsp;&nbsp;[Call for proposals](CALL.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Target specifications](SPECS.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Design tools](TOOLS.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[FAQ](FAQ.md)  
