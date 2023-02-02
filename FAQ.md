@@ -21,5 +21,5 @@ A: It is possible, but will depend on the size of your block. We will try to com
 Q: Will all selected teams be able to tape out?  
 A: We will perform design status audits before the tapeout and may only advance a subset of the designs based on their readiness.  
 
-Q: I am not a participating designer, but would like to contribute as a volunteer/mentor, is this possible? 
+Q: I am not a participating designer, but would like to contribute as a volunteer/mentor, is this possible?   
 A: Yes! Please sign up [here](https://sscs.ieee.org/volunteer-opportunities#SSCD).
