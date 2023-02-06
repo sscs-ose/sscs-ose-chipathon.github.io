@@ -1,6 +1,6 @@
 # SSCS “PICO” Open-Source Chipathon
 
-<img align="left" width="400" src="overview.png" width="450"/>
+<img align="left" width="400" src="figures/overview.png" width="450"/>
 
 
 
