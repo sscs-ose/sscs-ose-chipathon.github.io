@@ -9,7 +9,7 @@ To our knowledge, there aren't any published prior-art designs that we can build
 What follows below are initial thoughts and minimum specs for each one of our major system components. All teams are encouraged to exceed the minimum requirements and explore what is possible!
 
 **1. Scope MUX and signal conditioning**  
-The oscilloscope design should have an input MUX that allows the macro's user to switch the ADC to a number of different test points within the DUT. It is desirable to have the MUX work for rail-to-rail inputs. The signal conditioning circuitry should have a small input capacitance and essentially "infinite" input resistance. On the output side, there must be significant drive strength to handle the high-speed ADCs and deal with their charge kickback (if applicable). A plus for signal conditioning block would be to include transimpedance stages for current measurements.
+The oscilloscope design should have an input MUX that allows the macro's user to switch the ADC resources to a number of different test points within the DUT. It is desirable to have the MUX work for rail-to-rail inputs. The signal conditioning circuitry should have a small input capacitance and essentially "infinite" input resistance. On the output side, there must be significant drive strength to handle the high-speed ADCs and deal with their charge kickback (if applicable). A plus for signal conditioning block would be to include transimpedance stages for current measurements.
 
 | Specification | Symbol | Baseline requirement | Comment |
 | ------------- | ------ |--------------------- |-------- |
