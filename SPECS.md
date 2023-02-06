@@ -1,4 +1,4 @@
-# Specifications
+# Target specifications
 
 The purpose of this page is to seed some ideas on what the  “lab bench on a chip” target design may look like. Further teamwork and thinking is required to turn this into a workable design that we can tape out toward the end of the year. Each participating team may choose to work on one or more of the six building blocks identified in the diagram below. The proposals submitted by each team (in the form of a Jupyter notebook) should describe in detail how you want to implement your chosen block(s), what the specifications will be, and in addition provide convincing calculations and simulation results. Layouts are not required at the proposal stage.
 
