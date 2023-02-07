@@ -6,7 +6,7 @@ The purpose of this page is to seed some ideas on what the  “lab bench on a ch
   <img src="figures/block_diagram.svg" width="650"/>    
 </p>
 
-To our knowledge, there aren't any published prior-art “lab bench on a chip” designs that we can build on. However, we can draw some inspiration from a similar system that was designed for and with discrete circuits. The [Analog Discovery 2](https://digilent.com/reference/test-and-measurement/analog-discovery-2/start) is a multifunction instrument that has all the functionality we are looking for (and more) and comes with detailed [schematics](https://digilent.com/reference/test-and-measurement/analog-discovery-2/hardware-design-guide). While this documentation provides a first-order idea on what we should build, the circuit design style will be somewhat different for on-chip circuitry. Additionally, it will be difficult to match all specifications within a reasonable area budget and given the 180 nm technology that we have at our disposal.
+To our knowledge, there aren't any published prior-art “lab bench on a chip” designs that we can build on. However, we can draw some inspiration from a similar system that was designed for PCB measurements. The [Analog Discovery 2](https://digilent.com/reference/test-and-measurement/analog-discovery-2/start) is a multifunction instrument that has all the functionality we are looking for (and more) and comes with detailed [schematics](https://digilent.com/reference/test-and-measurement/analog-discovery-2/hardware-design-guide). While this documentation provides a first-order idea on what we should build, the circuit design style will be somewhat different for on-chip circuitry. Additionally, it will be difficult to match all specifications within a reasonable area budget and given the 180 nm technology that we have at our disposal.
 
 Generally, think of this entire project is an experiment. We want to explore what a team of enthusiasts, spread across the globe, can do within the new environment of open-source IC design. Even if we don't succeed at building the complete target system in our first attempt, the community can re-use the various blocks that we design for future iterations or for an entirely different purpose.
 
@@ -17,7 +17,7 @@ The oscilloscope design should have an input MUX that allows the macro's user to
 
 | Specification | Symbol | Baseline requirement | Comment |
 | ------------- | ------ |--------------------- |-------- |
-| Scope input capacitance | Cin | <5pF | From each diff. input to ground
+| Scope input capacitance | Cin | < 5pF | From each diff. input to ground
 | Number of differential input channels   | N  |  $\geq8$  | For a future project, much larger N could be beneficial for enabling "tiny tapeouts" for analog circuits with many small blocks
 | Programmable gain   | G  |  0.25, 0.5, 1, 2, 4, 8 | Gain <1 needed since ADC likely cannot handle rail-to-rail inputs
 | Bandwidth   | BW  |  Maximize | Should be linked to ADC's acquisition bandwidth
@@ -25,11 +25,11 @@ The oscilloscope design should have an input MUX that allows the macro's user to
 
 
 **2. AWG MUX and signal conditioning**  
-The arbitrary waveform generator design should have an output MUX that allows the macro's user to direct the DAC resources to a number of different test points within the DUT. It is desirable to have the MUX work for rail-to-rail outputs. The MUX resistance will limit the AWG drive strength, but this should be OK for small on-chip loads. 
+The arbitrary waveform generator design should have an output MUX that allows the macro's user to direct the DAC resources to a number of different test points within the DUT. It is desirable to have the MUX work for rail-to-rail outputs. The MUX resistance will limit the AWG drive strength, but this should be OK for small on-chip loads. The Analog Discovery 2 has adjustable offsets in each channel. This may not be needed for our design. 
 
 | Specification | Symbol | Baseline requirement | Comment |
 | ------------- | ------ |--------------------- |-------- |
-| Max. AWG load capacitance | CL | 10pF | Driver stability must be ensured up to this level
+| AWG load capacitance | CL | $\leq$ 10pF | Driver stability must be ensured up to this level
 | Number of differential input channels   | N  |  $\geq8$  | For a future project, much larger N could be beneficial for enabling "tiny tapeouts" for analog circuits with many small blocks
 | Bandwidth   | BW  |  Maximize | Should be linked to DAC's Nyquist bandwidth
 | Slew rate   | SR  |  $\geq V_{peak}\cdot 2\pi BW$ | Align with bandwidth, assuming largest supported signal
@@ -39,7 +39,7 @@ The arbitrary waveform generator design should have an output MUX that allows th
 The clock generator(s) for both the ADC and DAC should be designed in alignment with the target specs for these converters. For example, the clock generator's jitter should not lead to a significant SNR degradation at the maximum input frequency.
 
 **4. ADCs**  
-The ADC and DAC design tasks wil likely the most challenging and time consuming. An important objective is to minimize silicon area while still achieving attractive specs for the given application. Teams working on this block should consider re-using existing designs, as for instance this [12-bit SAR ADC](https://github.com/w32agobot/SKY130_SAR-ADC). It is desirable to have at least two ADCs (as shown in the system diagram) so that two signals can be measured simultaneously in real time, but this is not a must.
+The ADC and DAC design tasks will likely the most challenging and time consuming. An important objective is to minimize silicon area while still achieving attractive specs for the given application. Teams working on this block should consider re-using existing designs, as for instance this [12-bit SAR ADC](https://github.com/w32agobot/SKY130_SAR-ADC). It is desirable to have at least two ADCs (as shown in the system diagram) so that two signals can be measured simultaneously in real time, but this is not a must.
 
 | Specification | Symbol | Baseline requirement | Comment |
 | ------------- | ------ |--------------------- |-------- |
@@ -49,7 +49,7 @@ The ADC and DAC design tasks wil likely the most challenging and time consuming.
 
 
 **5. DACs**  
-For the DAC, it may be best to aim for a current steering topology (also used in the Analog Discovery 2). Such a DAC will produce a differential output current that is converted to a differential voltage and image-filtered by the AWG signal conditioning block. Off the shelf current steering DACs are typically designed for high currents to interface with 50 Ohm loads. This is not a requirement in our on-chip environment; we can deviate to minimize circuit area.
+For the DAC, it may be best to aim for a current steering topology (also used in the Analog Discovery 2). Such a DAC will produce a differential output current that is converted to a differential voltage and image-filtered by the AWG signal conditioning block. Off the shelf current steering DACs are typically designed for high currents to interface with 50 Ohm loads. This is not a requirement in our on-chip environment; we can deviate to minimize circuit area. It is desirable to have at least two DACs (as shown in the system diagram) so that two signals can be generated simultaneously in real time, but this is not a must.
 
 | Specification | Symbol | Baseline requirement | Comment |
 | ------------- | ------ |--------------------- |-------- |
