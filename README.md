@@ -4,8 +4,8 @@
 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Call for proposals](CALL.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;[How to participate](HOWTO.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Target specifications](SPECS.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Design tools](TOOLS.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Call for Proposals](CALL.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[How to Participate](HOWTO.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Target Specifications](SPECS.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Design Tools](TOOLS.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;[FAQ](FAQ.md)  
