@@ -1,6 +1,6 @@
 
 ## 2023 SSCS “PICO” Open-Source Chipathon
-### – Submission deadline: May 1, 2023 –
+### – Submission deadline: ~~May 1~~ May 8, 2023 –
 
 The IEEE Solid-State Circuits Society is pleased to announce its third open-source integrated circuit (IC) design contest under the umbrella of its [PICO](https://sscs.ieee.org/about/solid-state-circuits-directions/sscs-pico-program) Program (Platform for IC Design Outreach). While this contest is open to any individual or team, we encourage the participation of pre-college students, undergraduates, and geographical regions that are underrepresented within the IC design community.
 
