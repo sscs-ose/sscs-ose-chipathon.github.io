@@ -1,0 +1,274 @@
+* ----------------------------------------------------------------------------------------------------
+.LIB cap_mim_new
+* ----------------------------------------------------------------------------------------------------
+
+* ----------------------------------------------------------------------------------------------------
+* OPTION-A [3LM]
+* ----------------------------------------------------------------------------------------------------
+
+*/ -------------------------------------------------------------------------------------
+*/ MIM Capacitor (1.5fF/um2) subcircuit model for GF's 0.18 Analog CMOS process
+*/--------------------------------------------------------------------------------------
+.subckt cap_mim_1f5_m2m3_noshield 1 2  c_length=l c_width=w dtemp=0 par=1
+.param
++ c_cox='1.47e-3*mim_corner_1p5fF'
++ c_capsw='3.79e-10*mim_corner_1p5fF'
++ c_tnom=25
++ c_tc1=4.0604E-05
++ c_tc2=-6.90E-08
++ c_vcr1=-4.5152E-05
++ c_vcr2=9.748E-06
++ c_area='c_length*c_width'
++ c_peri='2*(c_length+c_width)'
++ c_c0='(c_cox*c_area+c_capsw*c_peri)*(1+c_tc1*(temper+dtemp-c_tnom)+c_tc2*(temper+dtemp-c_tnom)*(temper+dtemp-c_tnom))'
+*/
+*/ model for capacitance
+c_cap 1 2 c='c_c0*(1+ c_vcr1*v(1, 2)+c_vcr2*v(1,2)*v(1,2) )*(1+mc_c_cox_1p5fF)'
+**
+.ends cap_mim_1f5_m2m3_noshield
+*/ -------------------------------------------------------------------------------------
+*/ MIM Capacitor (1fF/um2) subcircuit model for GF's 0.18 Analog CMOS process
+*/--------------------------------------------------------------------------------------
+.subckt cap_mim_1f0_m2m3_noshield 1 2  c_length=l c_width=w dtemp=0 par=1
+.param
++ c_cox='0.987e-3*mim_corner_1p0fF'
++ c_capsw='3.3e-10*mim_corner_1p0fF'
++ c_tnom=25
++ c_tc1=1.302e-5
++ c_tc2=-4.93e-9
++ c_vcr1=6.079e-6
++ c_vcr2=1.268e-6
++ c_area='c_length*c_width'
++ c_peri='2*(c_length+c_width)'
++ c_c0='(c_cox*c_area+c_capsw*c_peri)*(1+c_tc1*(temper+dtemp-c_tnom)+c_tc2*(temper+dtemp-c_tnom)*(temper+dtemp-c_tnom))'
+*/
+*/ model for capacitance
+c_cap 1 2 c='c_c0*(1+ c_vcr1*v(1, 2)+c_vcr2*v(1,2)*v(1,2) )*(1+mc_c_cox_1p0fF)'
+**
+.ends cap_mim_1f0_m2m3_noshield
+*/ -------------------------------------------------------------------------------------
+*/ MIM Capacitor (2fF/um2) subcircuit model for GLOBALFOUNDRIES 0.18 Analog CMOS process M2-M3
+*/--------------------------------------------------------------------------------------
+.subckt cap_mim_2f0_m2m3_noshield  1 2  c_length=l  c_width=w dtemp=0 par=1
+.param gleak='9.51e-10/5*10000'
+.param c_cox='1.99e-3*mim_corner_2p0fF'
+.param c_capsw='2.383e-10*mim_corner_2p0fF'
+.param c_vcr1='0+(c_width>5u||c_length>5u)*8.742e-6+(c_width<=5u||c_length<=5u)*(-81e-6)'
+.param c_vcr2='0+(c_width>5u||c_length>5u)*9.188e-6+(c_width<=5u||c_length<=5u)*(16.7e-6)'
+
+.param c_tnom=25
+.param c_tc1=1.46e-5
+.param c_tc2=-5.55e-8
+.param c_AREA='c_length*c_width'
+.param c_PERI='2*(c_length+c_width)'
+
+.param c_c0='(c_cox*c_AREA+c_capsw*c_PERI)*(1+c_tc1*(temper +dtemp -c_tnom)+c_tc2*(temper+dtemp-c_tnom)*(temper+dtemp-c_tnom))'
+*
+c_cap 1 2 c='c_c0*(1+c_vcr1*v(1,2)+c_vcr2*v(1,2)*v(1,2))*(1+mc_c_cox_2p0fF)'
+r_leak 1 2 r='1/(gleak*c_AREA)' tc1=c_tc1 tc2=c_tc2 dtemp=dtemp
+.ends cap_mim_2f0_m2m3_noshield
+
+* ----------------------------------------------------------------------------------------------------
+* OPTION-B [4LM]
+* ----------------------------------------------------------------------------------------------------
+
+*/ -------------------------------------------------------------------------------------
+*/ MIM Capacitor (1.5fF/um2) subcircuit model for GF's 0.18 Analog CMOS process
+*/--------------------------------------------------------------------------------------
+.subckt cap_mim_1f5_m3m4_noshield 1 2  c_length=l c_width=w dtemp=0 par=1
+.param
++ c_cox='1.47e-3*mim_corner_1p5fF'
++ c_capsw='3.79e-10*mim_corner_1p5fF'
++ c_tnom=25
++ c_tc1=4.0604E-05
++ c_tc2=-6.90E-08
++ c_vcr1=-4.5152E-05
++ c_vcr2=9.748E-06
++ c_area='c_length*c_width'
++ c_peri='2*(c_length+c_width)'
++ c_c0='(c_cox*c_area+c_capsw*c_peri)*(1+c_tc1*(temper+dtemp-c_tnom)+c_tc2*(temper+dtemp-c_tnom)*(temper+dtemp-c_tnom))'
+*/
+*/ model for capacitance
+c_cap 1 2 c='c_c0*(1+ c_vcr1*v(1, 2)+c_vcr2*v(1,2)*v(1,2) )*(1+mc_c_cox_1p5fF)'
+**
+.ends cap_mim_1f5_m3m4_noshield
+*/ -------------------------------------------------------------------------------------
+*/ MIM Capacitor (1fF/um2) subcircuit model for GF's 0.18 Analog CMOS process
+*/--------------------------------------------------------------------------------------
+.subckt cap_mim_1f0_m3m4_noshield 1 2  c_length=l c_width=w dtemp=0 par=1
+.param
++ c_cox='0.987e-3*mim_corner_1p0fF'
++ c_capsw='3.3e-10*mim_corner_1p0fF'
++ c_tnom=25
++ c_tc1=1.302e-5
++ c_tc2=-4.93e-9
++ c_vcr1=6.079e-6
++ c_vcr2=1.268e-6
++ c_area='c_length*c_width'
++ c_peri='2*(c_length+c_width)'
++ c_c0='(c_cox*c_area+c_capsw*c_peri)*(1+c_tc1*(temper+dtemp-c_tnom)+c_tc2*(temper+dtemp-c_tnom)*(temper+dtemp-c_tnom))'
+*/
+*/ model for capacitance
+c_cap 1 2 c='c_c0*(1+ c_vcr1*v(1, 2)+c_vcr2*v(1,2)*v(1,2) )*(1+mc_c_cox_1p0fF)'
+**
+.ends cap_mim_1f0_m3m4_noshield
+*/ -------------------------------------------------------------------------------------
+*/ MIM Capacitor (2fF/um2) subcircuit model for GLOBALFOUNDRIES 0.18 Analog CMOS process M2-M3
+*/--------------------------------------------------------------------------------------
+.subckt cap_mim_2f0_m3m4_noshield  1 2  c_length=l  c_width=w dtemp=0 par=1
+.param gleak='9.51e-10/5*10000'
+.param c_cox='1.99e-3*mim_corner_2p0fF'
+.param c_capsw='2.383e-10*mim_corner_2p0fF'
+.param c_vcr1='0+(c_width>5u||c_length>5u)*8.742e-6+(c_width<=5u||c_length<=5u)*(-81e-6)'
+.param c_vcr2='0+(c_width>5u||c_length>5u)*9.188e-6+(c_width<=5u||c_length<=5u)*(16.7e-6)'
+
+.param c_tnom=25
+.param c_tc1=1.46e-5
+.param c_tc2=-5.55e-8
+.param c_AREA='c_length*c_width'
+.param c_PERI='2*(c_length+c_width)'
+
+.param c_c0='(c_cox*c_AREA+c_capsw*c_PERI)*(1+c_tc1*(temper +dtemp -c_tnom)+c_tc2*(temper+dtemp-c_tnom)*(temper+dtemp-c_tnom))'
+*
+c_cap 1 2 c='c_c0*(1+c_vcr1*v(1,2)+c_vcr2*v(1,2)*v(1,2))*(1+mc_c_cox_2p0fF)'
+r_leak 1 2 r='1/(gleak*c_AREA)' tc1=c_tc1 tc2=c_tc2 dtemp=dtemp
+.ends cap_mim_2f0_m3m4_noshield
+
+* ----------------------------------------------------------------------------------------------------
+* OPTION-B [5LM]
+* ----------------------------------------------------------------------------------------------------
+
+*/ -------------------------------------------------------------------------------------
+*/ MIM Capacitor (1.5fF/um2) subcircuit model for GF's 0.18 Analog CMOS process
+*/--------------------------------------------------------------------------------------
+.subckt cap_mim_1f5_m4m5_noshield 1 2  c_length=l c_width=w dtemp=0 par=1
+.param
++ c_cox='1.47e-3*mim_corner_1p5fF'
++ c_capsw='3.79e-10*mim_corner_1p5fF'
++ c_tnom=25
++ c_tc1=4.0604E-05
++ c_tc2=-6.90E-08
++ c_vcr1=-4.5152E-05
++ c_vcr2=9.748E-06
++ c_area='c_length*c_width'
++ c_peri='2*(c_length+c_width)'
++ c_c0='(c_cox*c_area+c_capsw*c_peri)*(1+c_tc1*(temper+dtemp-c_tnom)+c_tc2*(temper+dtemp-c_tnom)*(temper+dtemp-c_tnom))'
+*/
+*/ model for capacitance
+c_cap 1 2 c='c_c0*(1+ c_vcr1*v(1, 2)+c_vcr2*v(1,2)*v(1,2) )*(1+mc_c_cox_1p5fF)'
+**
+.ends cap_mim_1f5_m4m5_noshield
+
+*/ -------------------------------------------------------------------------------------
+*/ MIM Capacitor (1fF/um2) subcircuit model for GF's 0.18 Analog CMOS process
+*/--------------------------------------------------------------------------------------
+.subckt cap_mim_1f0_m4m5_noshield 1 2  c_length=l c_width=w dtemp=0 par=1
+.param
++ c_cox='0.987e-3*mim_corner_1p0fF'
++ c_capsw='3.3e-10*mim_corner_1p0fF'
++ c_tnom=25
++ c_tc1=1.302e-5
++ c_tc2=-4.93e-9
++ c_vcr1=6.079e-6
++ c_vcr2=1.268e-6
++ c_area='c_length*c_width'
++ c_peri='2*(c_length+c_width)'
++ c_c0='(c_cox*c_area+c_capsw*c_peri)*(1+c_tc1*(temper+dtemp-c_tnom)+c_tc2*(temper+dtemp-c_tnom)*(temper+dtemp-c_tnom))'
+*/
+*/ model for capacitance
+c_cap 1 2 c='c_c0*(1+ c_vcr1*v(1, 2)+c_vcr2*v(1,2)*v(1,2) )*(1+mc_c_cox_1p0fF)'
+**
+.ends cap_mim_1f0_m4m5_noshield
+
+*/ -------------------------------------------------------------------------------------
+*/ MIM Capacitor (2fF/um2) subcircuit model for GLOBALFOUNDRIES 0.18 Analog CMOS process M2-M3
+*/--------------------------------------------------------------------------------------
+.subckt cap_mim_2f0_m4m5_noshield  1 2  c_length=l  c_width=w dtemp=0 par=1
+.param gleak='9.51e-10/5*10000'
+.param c_cox='1.99e-3*mim_corner_2p0fF'
+.param c_capsw='2.383e-10*mim_corner_2p0fF'
+.param c_vcr1='0+(c_width>5u||c_length>5u)*8.742e-6+(c_width<=5u||c_length<=5u)*(-81e-6)'
+.param c_vcr2='0+(c_width>5u||c_length>5u)*9.188e-6+(c_width<=5u||c_length<=5u)*(16.7e-6)'
+
+.param c_tnom=25
+.param c_tc1=1.46e-5
+.param c_tc2=-5.55e-8
+.param c_AREA='c_length*c_width'
+.param c_PERI='2*(c_length+c_width)'
+
+.param c_c0='(c_cox*c_AREA+c_capsw*c_PERI)*(1+c_tc1*(temper +dtemp -c_tnom)+c_tc2*(temper+dtemp-c_tnom)*(temper+dtemp-c_tnom))'
+*
+c_cap 1 2 c='c_c0*(1+c_vcr1*v(1,2)+c_vcr2*v(1,2)*v(1,2))*(1+mc_c_cox_2p0fF)'
+r_leak 1 2 r='1/(gleak*c_AREA)' tc1=c_tc1 tc2=c_tc2 dtemp=dtemp
+.ends cap_mim_2f0_m4m5_noshield
+
+* ----------------------------------------------------------------------------------------------------
+* OPTION-B [6LM]
+* ----------------------------------------------------------------------------------------------------
+
+*/ -------------------------------------------------------------------------------------
+*/ MIM Capacitor (1.5fF/um2) subcircuit model for GF's 0.18 Analog CMOS process
+*/--------------------------------------------------------------------------------------
+.subckt cap_mim_1f5_m5m6_noshield 1 2  c_length=l c_width=w dtemp=0 par=1
+.param
++ c_cox='1.47e-3*mim_corner_1p5fF'
++ c_capsw='3.79e-10*mim_corner_1p5fF'
++ c_tnom=25
++ c_tc1=4.0604E-05
++ c_tc2=-6.90E-08
++ c_vcr1=-4.5152E-05
++ c_vcr2=9.748E-06
++ c_area='c_length*c_width'
++ c_peri='2*(c_length+c_width)'
++ c_c0='(c_cox*c_area+c_capsw*c_peri)*(1+c_tc1*(temper+dtemp-c_tnom)+c_tc2*(temper+dtemp-c_tnom)*(temper+dtemp-c_tnom))'
+*/
+*/ model for capacitance
+c_cap 1 2 c='c_c0*(1+ c_vcr1*v(1, 2)+c_vcr2*v(1,2)*v(1,2) )*(1+mc_c_cox_1p5fF)'
+**
+.ends cap_mim_1f5_m5m6_noshield
+
+*/ -------------------------------------------------------------------------------------
+*/ MIM Capacitor (1fF/um2) subcircuit model for GF's 0.18 Analog CMOS process
+*/--------------------------------------------------------------------------------------
+.subckt cap_mim_1f0_m5m6_noshield 1 2  c_length=l c_width=w dtemp=0 par=1
+.param
++ c_cox='0.987e-3*mim_corner_1p0fF'
++ c_capsw='3.3e-10*mim_corner_1p0fF'
++ c_tnom=25
++ c_tc1=1.302e-5
++ c_tc2=-4.93e-9
++ c_vcr1=6.079e-6
++ c_vcr2=1.268e-6
++ c_area='c_length*c_width'
++ c_peri='2*(c_length+c_width)'
++ c_c0='(c_cox*c_area+c_capsw*c_peri)*(1+c_tc1*(temper+dtemp-c_tnom)+c_tc2*(temper+dtemp-c_tnom)*(temper+dtemp-c_tnom))'
+*/
+*/ model for capacitance
+c_cap 1 2 c='c_c0*(1+ c_vcr1*v(1, 2)+c_vcr2*v(1,2)*v(1,2) )*(1+mc_c_cox_1p0fF)'
+**
+.ends cap_mim_1f0_m5m6_noshield
+
+*/ -------------------------------------------------------------------------------------
+*/ MIM Capacitor (2fF/um2) subcircuit model for GLOBALFOUNDRIES 0.18 Analog CMOS process M2-M3
+*/--------------------------------------------------------------------------------------
+.subckt cap_mim_2f0_m5m6_noshield  1 2  c_length=l  c_width=w dtemp=0 par=1
+.param gleak='9.51e-10/5*10000'
+.param c_cox='1.99e-3*mim_corner_2p0fF'
+.param c_capsw='2.383e-10*mim_corner_2p0fF'
+.param c_vcr1='0+(c_width>5u||c_length>5u)*8.742e-6+(c_width<=5u||c_length<=5u)*(-81e-6)'
+.param c_vcr2='0+(c_width>5u||c_length>5u)*9.188e-6+(c_width<=5u||c_length<=5u)*(16.7e-6)'
+
+.param c_tnom=25
+.param c_tc1=1.46e-5
+.param c_tc2=-5.55e-8
+.param c_AREA='c_length*c_width'
+.param c_PERI='2*(c_length+c_width)'
+
+.param c_c0='(c_cox*c_AREA+c_capsw*c_PERI)*(1+c_tc1*(temper +dtemp -c_tnom)+c_tc2*(temper+dtemp-c_tnom)*(temper+dtemp-c_tnom))'
+*
+c_cap 1 2 c='c_c0*(1+c_vcr1*v(1,2)+c_vcr2*v(1,2)*v(1,2))*(1+mc_c_cox_2p0fF)'
+r_leak 1 2 r='1/(gleak*c_AREA)' tc1=c_tc1 tc2=c_tc2 dtemp=dtemp
+.ends cap_mim_2f0_m5m6_noshield
+
+.ENDL cap_mim_new
+* ----------------------------------------------------------------------------------------------------
