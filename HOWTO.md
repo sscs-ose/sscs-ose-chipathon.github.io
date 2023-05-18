@@ -29,8 +29,8 @@ Please refer to this general documentation on how to start a [Colab](https://col
 
 ## Schedule
 - Info session: March 9, 2023, 8:00 AM Pacific Time (meeting link to follow).
-- Proposal deadline: May 1, 2023, 11:59 PM Pacific Time 
-- Announcement of selected teams: May 15, 2023
+- Proposal deadline: ~~May 1, 2023~~ May 8, 2023, 11:59 PM Pacific Time 
+- Announcement of selected teams: ~~May 15, 2023~~ June 2, 2023
 - Start of online meetups: June 2023
 - Tapeout deadline: December 2023
 
