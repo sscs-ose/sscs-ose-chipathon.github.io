@@ -7,7 +7,7 @@
 - Create a pull request for your proposal notebook submission by the deadline stated below. Refer to the “how to submit” instructions in the Chipathon repository for further details.
 
 ## How to Submit your Notebook
-Participants are required to send their [GitHub Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to this repository by: May 1, 2023, 11:59 PM Pacific Time. 
+Participants are required to send their [GitHub Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to this repository by: ~~May 1~~ May 8, 2023, 11:59 PM Pacific Time. 
 
 **_Note_:** Please do not make any modifications to your Pull Request after the above deadline. All PRs will be merged after the deadline is passed.
 
