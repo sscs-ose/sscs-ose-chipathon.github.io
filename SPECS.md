@@ -3,7 +3,7 @@
 The purpose of this page is to seed some ideas on what the  “lab bench on a chip” target design may look like. Further teamwork and thinking is required to turn this into a workable design that we can tape out toward the end of the year. Each participating team may choose to work on one or more of the six building blocks identified in the diagram below. The proposals submitted by each team (in the form of a Jupyter notebook) should describe in detail how you want to implement your chosen block(s), what the specifications will be, and in addition provide convincing calculations and simulation results. Layouts are not required at the proposal stage.
 
 <p align="center">
-  <img src="figures/block_diagram.svg" width="650"/>    
+  <img src="figures/block_diagram.drawio.svg" width="650"/>    
 </p>
 
 To our knowledge, there aren't any published prior-art “lab bench on a chip” designs that we can build on. However, we can draw some inspiration from a similar system that was designed for PCB measurements. The [Analog Discovery 2](https://digilent.com/reference/test-and-measurement/analog-discovery-2/start) is a multifunction instrument that has all the functionality we are looking for (and more) and comes with detailed [schematics](https://digilent.com/reference/test-and-measurement/analog-discovery-2/hardware-design-guide). While this documentation provides a first-order idea on what we should build, the circuit design style will be somewhat different for on-chip circuitry. Additionally, it will be difficult to match all specifications within a reasonable area budget and given the 180 nm technology that we have at our disposal.
