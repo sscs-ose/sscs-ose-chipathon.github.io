@@ -10,7 +10,7 @@ To our knowledge, there aren't any published prior-art “lab bench on a chip”
 
 Generally, think of this entire project as an experiment. We want to explore what a team of enthusiasts, spread across the globe, can do within the new environment of open-source IC design. Even if we don't succeed at building the complete target system in our first attempt, the community can re-use the various blocks that we design for future iterations or for an entirely different purpose.
 
-What follows below are initial thoughts and baseline specs for each one of our major system components. All teams are encouraged to exceed these requirements and explore what is possible!
+What follows below are initial thoughts and baseline specs for each one of our major system components. All teams are encouraged to exceed these requirements and explore what is possible.
 
 **1. Scope MUX and signal conditioning**  
 The oscilloscope design should have an input MUX that allows the macro's user to switch the ADC resources to a number of different test points within the DUT. It is desirable to have the MUX work for rail-to-rail inputs. The signal conditioning circuitry should have a small input capacitance and essentially "infinite" input resistance. On the output side, there must be significant drive strength to handle the high-speed ADCs and deal with their charge kickback (if applicable). A plus for signal conditioning block would be to include transimpedance stages for current measurements. The Analog Discovery 2 has adjustable offsets in each channel. This may not be needed for our design.
