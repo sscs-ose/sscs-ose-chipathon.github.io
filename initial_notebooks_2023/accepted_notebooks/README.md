@@ -1,3 +1,7 @@
+## IEEE SSCS Open-Source Ecosystem Chipathon 2023
+
+**List of Accepted Projects:**
+
 | Name        | Affiliation                                                     | Notebook Title                                                          |  
 | ----------- | --------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | Junbeom Park | SNU,	South Korea | 10-Bit 100-MS/s Current-Steering DAC using IEEE SSCS Open-Source Tools |
