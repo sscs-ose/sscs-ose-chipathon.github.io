@@ -6,7 +6,7 @@
 | ----------- | --------------------------------------------------------------- | ----------------|------------------------------------------------------------------------ |
 | Junbeom Park | SNU,	South Korea | South Korea | 10-Bit 100-MS/s Current-Steering DAC using IEEE SSCS Open-Source Tools |
 | Aya Khaled | Egypt | Egypt | Current steering DAC |
-| Gabriel Maranhão | Universidade Federal de Santa Catarina, Brazil | |Brazil | Analog blocks |
+| Gabriel Maranhão | Universidade Federal de Santa Catarina, Brazil | Brazil | Analog blocks |
 | Akira Tsuchiya |The University of Shiga Prefecture, Japan | Japan |Development of Process Portable Design Automation for Analog Circuits |
 | Nouman Ahmad | National University of Computer Emerging Sciences, Pakistan | Pakistan1 |Current Steering Digital to Analog Converter |
 | Juan Sebastián Moya Baquero | Universidad Industrial de Santander | Colombia | 11-bit differential ADC SAR |
