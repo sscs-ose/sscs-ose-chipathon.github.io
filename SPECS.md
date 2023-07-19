@@ -39,7 +39,7 @@ The arbitrary waveform generator design should have an output MUX that allows th
 The clock generator(s) for both the ADC and DAC should be designed in alignment with the target specs for these converters. For example, the clock generator's jitter should not lead to a significant SNR degradation at the maximum input frequency.
 
 **4. ADCs**  
-The ADC and DAC design tasks will likely the most challenging and time consuming. An important objective is to minimize silicon area while still achieving attractive specs for the given application. Teams working on this block should consider re-using existing designs, as for instance this [12-bit SAR ADC](https://github.com/w32agobot/SKY130_SAR-ADC). It is desirable to have at least two ADCs (as shown in the system diagram) so that two signals can be measured simultaneously in real time, but this is not a must.
+The ADC and DAC design tasks will likely be the most challenging and time consuming. An important objective is to minimize silicon area while still achieving attractive specs for the given application. Teams working on this block should consider re-using existing designs, as for instance this [12-bit SAR ADC](https://github.com/w32agobot/SKY130_SAR-ADC). It is desirable to have at least two ADCs (as shown in the system diagram) so that two signals can be measured simultaneously in real time, but this is not a must.
 
 | Specification | Symbol | Baseline requirement | Comment |
 | ------------- | ------ |--------------------- |-------- |
