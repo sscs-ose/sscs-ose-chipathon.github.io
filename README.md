@@ -1,5 +1,5 @@
 # SSCS “PICO” Open-Source Chipathon 
-**Note:** 2024 contributions will be made directly to the OpenFASOC/GLAYOUT [Repository](https://github.com/idea-fasoc/OpenFASOC)
+**Note:** Chipathon 2024 contributions will be made directly to the OpenFASOC/GLAYOUT [Repository](https://github.com/idea-fasoc/OpenFASOC) Tapeout-ready designs will be pushed to this repo with their final simulations results.
 
 <img align="left" width="400" src="figures/overview.png" width="450"/>
 
