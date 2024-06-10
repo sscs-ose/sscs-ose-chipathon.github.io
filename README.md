@@ -12,7 +12,7 @@
 1. [Glayout Installation Guide](https://docs.google.com/document/d/161Pstk6R0ECvJJNA-SJqtLt_VpfH_s84sYTyvpQQbl8/edit?usp=sharing)
 2. [Glayout Introduction Guide](https://docs.google.com/document/d/1vdw3_tFQGgvZGH7e2K7p9UVJA92clISRoUobgk_HHyo/edit?usp=sharing)
 3. [Glayout Videos](https://www.youtube.com/@OpenFASOC) (links to the OpenFASOC youtube, all introductory videos can be found here)
-4. [Prospective PCells](https://docs.google.com/spreadsheets/d/1KGBN63gHc-hpxVrqoAoOkerA7bl1-sZ44X4uEn-ILGE/edit?usp=sharing)
+4. [Prospective PCells](https://docs.google.com/spreadsheets/d/12O-WoqSlHhPshN3-2ph_LZLXPteRHmBOlMnybfmNyzg/edit?usp=sharing)
 
 ## Introduction 
 The IEEE Solid-State Circuits Society is pleased to announce its third open-source integrated circuit (IC) design contest under the umbrella of its [PICO](https://sscs.ieee.org/about/solid-state-circuits-directions/sscs-pico-program) Program (Platform for IC Design Outreach). While this contest is open to any individual or team, we encourage the participation of pre-college students, undergraduates, and geographical regions that are underrepresented within the IC design community.
