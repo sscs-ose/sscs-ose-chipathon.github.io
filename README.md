@@ -39,17 +39,17 @@ Some examples of pcells, with their generated layouts have been shown below (**r
 1. [Via](https://github.com/idea-fasoc/OpenFASOC/blob/7dc5eb42cec94c02b74e72483df6fdc2b2603fb9/docs/source/notebooks/glayout/GLayout_Via.ipynb)  
 The notebook demonstrates how to place a rectangular via by using specified metal layers. This is the simplest pcell and a must know.  
 
-<img align="center" src="../figures/via.png">  
+<img align="center" src="figures/via.png">  
 
 
 2. [Current Mirror](https://github.com/idea-fasoc/OpenFASOC/blob/7dc5eb42cec94c02b74e72483df6fdc2b2603fb9/docs/source/notebooks/glayout/GLayout_Cmirror.ipynb)  
 The notebook linked goes over the placement, movement and routing of 2 transistor current mirror. 
 
-<img align="center" src="../figures/current_mirror_2t.png"/>
+<img align="center" src="figures/current_mirror_2t.png"/>
 
 
 
 3. [Opamp](https://github.com/idea-fasoc/OpenFASOC/tree/7dc5eb42cec94c02b74e72483df6fdc2b2603fb9/openfasoc/generators/glayout/glayout/flow/blocks/opamp)  
 This cell linked creates a two stage Operational Amplifier + an nfet output stage. The opamp uses a differential to single ended converter and a pmos load with miller compensation as the first two stages. A coaxial driver is also connected.  
 
-<img align="center" src="../figures/opamp.png"/>
+<img align="center" src="figures/opamp.png"/>
