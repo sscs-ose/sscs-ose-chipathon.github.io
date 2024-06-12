@@ -1,12 +1,29 @@
-# SSCS “PICO” Open-Source Chipathon 
-**Note:** Chipathon 2024 contributions will be made directly to the OpenFASOC/GLAYOUT [Repository](https://github.com/idea-fasoc/OpenFASOC) using the layout automation tool - GLayout. Tapeout-ready designs will be pushed to this repo with their final simulations results.
+# SSCS “PICO” Open-Source Chipathon 2024: Automating Analog Layout
+**Note:** Chipathon 2024 contributions will be made directly to the OpenFASOC/GLAYOUT [Repository](https://github.com/idea-fasoc/OpenFASOC) using the layout automation tool - GLayout. Final Generators and Tapeout-ready designs will be pushed to this repo with their final simulations results.
 
 ## Index 
-1. [Quick Links](#quick-links)
-2. [Introduction](#introduction)
-3. [Installation](#installation)
-4. [How to use Glayout](#how-to-use-glayout)
+1. [Schedule and Presentations](#schedule-and-presentations) 
+2. [Quick Links](#quick-links)
+3. [Introduction](#introduction)
+4. [Installation](#installation)
+5. [How to use Glayout](#how-to-use-glayout)
 
+## Schedule and Presentations
+| Date        | Topics | Presenters | Pre-meeting Assignments | Slides |  
+| ----------- | ------ | ---------- | ----------------------- | ------ |
+| 6/6/2024 | Meetup kick-off | Boris Murmann, Mehdi Saligane |	[Link](https://docs.google.com/presentation/d/e/2PACX-1vTmG5pvXelYR_iVBmbSIYTpEdyP-IAx9KJa-j2uPTUWAdvT-BvkUlgNXKGJ_8Gmdw/pub?start=false&loop=false&delayms=3000) |
+| 6/13/2024 |	Session on tools installation |	Sakib Pathen, Arlene Dai, Chetanya Goyal, Mehdi Saligane |	Play with Notebooks, Go through the installation and GLayout Doc | Link |
+| 6/20/2024 | Intro to GLayout + Addressing remaining installation issues |	Sakib Pathen, Arlene Dai, Chetanya Goyal, Mehdi Saligane |	Running GLayout example in CLI, Poke around the openfasoc repo | Link |
+| 6/27/2024 | Intro to GLayout + Examples |	Sakib Pathen, Arlene Dai, Chetanya Goyal, Mehdi Saligane | Review previous meeting | Link |	 
+| 7/4/2024 | Break |		Vacation | NA | NA |
+| 7/11/2024 | 50 nifty Transistors - Intro | Harald Pretl |	Going through basic analog components | Link |
+| 7/18/2024 | Main Topic: Creating Components |	Mehdi Saligane | Learn how to build your own cells | Link |
+| 7/25/2024 | Sizing Simple Circuits - 50 Nifty + Teaming up | Boris Murmann | Review Preview Meetings | Link |
+| 8/1/2024 | Sizing Simple Circuits - Blocks | Boris Murmann |	Learn how to size your circuit - Fundamentals | Link |
+| 8/8/2024 | Main Topic: DRC and LVS Checks | Mitch Bailey | Review Layout Verification tools | Link |
+| 8/15/2024 | Main Topic: Verification |	Tim Edwards | Review Simulation Tools and CACE | Link |
+| 8/22/2024 |	Projects Presentations I | Participants | Prepare Demo, notebook and Presentation | Link |		
+| 8/29/2024 |	Projects Presentations II |	Participants | Prepare Demo, notebook and Presentation | Link |
 
 ## Quick Links 
 1. [Glayout Installation Guide](https://docs.google.com/document/d/161Pstk6R0ECvJJNA-SJqtLt_VpfH_s84sYTyvpQQbl8/edit?usp=sharing)
