@@ -1,4 +1,5 @@
-# SSCS “PICO” Open-Source Chipathon 2024: Automating Analog Layout
+## SSCS “PICO” Open-Source Chipathon 2024: *Automating Analog Layout*
+
 **Note:** Chipathon 2024 contributions will be made directly to the OpenFASOC/GLAYOUT [Repository](https://github.com/idea-fasoc/OpenFASOC) using the layout automation tool - GLayout. Final Generators and Tapeout-ready designs will be pushed to this repo with their final simulations results.
 
 ## Index 
