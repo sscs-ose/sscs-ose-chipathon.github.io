@@ -8,4 +8,4 @@ The goal of this chipathon is to bring together IC design newbies, enthusiasts a
 
 The design target (depicted in the graphic below) is a “lab bench on a chip” system that can be used to characterize basic analog circuit blocks through oscilloscope and waveform generator functionality. Participants are requested to submit innovative ideas on how these blocks should be implemented. A jury will select the best proposals (submitted as Jupyter notebooks) to assemble a collection of teams that will work together toward tapeout. We anticipate tapeouts of several candidate designs toward the end of the year, targeting GlobalFoundries’ [GF180MCU technology](https://gf180mcu-pdk.readthedocs.io/en/latest/).
 
-<img src="figures/overview.png" width="400"/>
+<img src="../figures/overview.png" width="400"/>
