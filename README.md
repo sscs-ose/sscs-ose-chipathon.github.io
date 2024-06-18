@@ -12,8 +12,8 @@
 ## Schedule and Presentations
 | Date        | Topics | Presenters | Pre-meeting Assignments | Slides |  
 | ----------- | ------ | ---------- | ----------------------- | ------ |
-| 6/6/2024 | Meetup kick-off | Boris Murmann, Mehdi Saligane |	| [Link](https://docs.google.com/presentation/d/e/2PACX-1vTmG5pvXelYR_iVBmbSIYTpEdyP-IAx9KJa-j2uPTUWAdvT-BvkUlgNXKGJ_8Gmdw/pub?start=false&loop=false&delayms=3000) and [Video](https://ieee.webex.com/ieee/ldr.php?RCID=d9d43662d5be9d63f7a128ad2a317a2e) | 
-| 6/13/2024 |	Session on tools installation |	Sakib Pathen, Arlene Dai, Chetanya Goyal, Mehdi Saligane |	Play with Notebooks, Go through the installation and GLayout Doc | Link |
+| 6/6/2024 | Meetup kick-off | Boris Murmann, Mehdi Saligane |	| [Slides](https://docs.google.com/presentation/d/e/2PACX-1vTmG5pvXelYR_iVBmbSIYTpEdyP-IAx9KJa-j2uPTUWAdvT-BvkUlgNXKGJ_8Gmdw/pub?start=false&loop=false&delayms=3000) and [Recording](https://ieee.webex.com/ieee/ldr.php?RCID=d9d43662d5be9d63f7a128ad2a317a2e) | 
+| 6/13/2024 |	Session on tools installation |	Sakib Pathen, Arlene Dai, Chetanya Goyal, Mehdi Saligane |	Play with Notebooks, Go through the installation and GLayout Doc | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQBTmXIEmeb9jw-czwUoCni3RChDak-BHy1vTbSrZu50NM4e_f0DllS7znHwj3eHQ/pub?start=false&loop=false&delayms=3000) and [Recording](https://ieee.webex.com/recordingservice/sites/ieee/recording/83f3f46a71124480b6e800487b1a7893/playback) |
 | 6/20/2024 | Intro to GLayout + Addressing remaining installation issues |	Sakib Pathen, Arlene Dai, Chetanya Goyal, Mehdi Saligane |	Running GLayout example in CLI, Poke around the openfasoc repo | Link |
 | 6/27/2024 | Intro to GLayout + Examples |	Sakib Pathen, Arlene Dai, Chetanya Goyal, Mehdi Saligane | Review previous meeting | Link |	 
 | 7/4/2024 | Break |		Vacation | NA | NA |
