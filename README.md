@@ -23,7 +23,7 @@
 | 8/1/2024 | Sizing Simple Circuits - Blocks | Boris Murmann |	Learn how to size your circuit - Fundamentals | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRsXkpKEN2FEDzwbIBuY0PNdsgYScAbR_Q8w63SJDVIkGk4zOPSOtIKFO_bpm6jJg/pub?start=false&loop=false&delayms=3000) and [Recording](https://us06web.zoom.us/rec/play/5EMZJsylOpYywIvPkbTn2eSFXqEa-aif3Jp9e3ekHdbppKB9N6n8krxz8avcAc61KmNjFoppY4_6U71B.zINoTaohuYSKwjbM) |
 | 8/8/2024 | Main Topic: DRC and LVS Checks | Mitch Bailey | Review Layout Verification tools | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQGYaIdh_FgOfkm8rPeIZrC75k8sY8HMquvljGo5FuBkCaTungL5bWFa1DSSClVZw/pub?start=false&loop=false&delayms=3000) and [Recording](https://us06web.zoom.us/rec/play/OhbfLRulBwPIsJp0E6DcF2IA4eD-UaHt628WkmZSaNM-Y1Dl6ZrpTQB2o73FM9WSbGJG1ZX288uAcCMU.pJIGv3sHQnvC2NZX) |
 | 8/15/2024 | Main Topic: Verification |	Tim Edwards | Review Simulation Tools and CACE | [Slides](https://drive.google.com/file/d/13BWRM1gH_l8FQIpBt9abHu8873XtEIEI/view?usp=sharing) and [Recording](https://us06web.zoom.us/rec/share/51TQMvM75-DyuulxK0Nf0jzuT-yAF4ufOE0Zmdy6RhihE2TZYLbB4u9CwMHQAQYz.LxUT23CPxV8EEgZY) |
-| 8/22/2024 |	Projects Presentations I | Participants | Prepare Demo, notebook and Presentation | Link |		
+| 8/22/2024 |	Projects Presentations I | Participants | Prepare Demo, notebook and Presentation | [Slides](https://docs.google.com/presentation/d/1K-4iWb4d57Bc9me4rl629_2RfBr5ykok/pub?start=false&loop=false&delayms=3000) and [Recording](https://us06web.zoom.us/rec/play/MwtftHzPZlRjmC50kO5vEh8WzzS9k4HXnOXzGP2q5YfGtA70MF_qLdPcXlFQaDWoVkxZYPb9lzMEbRva.YJyqe5yovZuid8Y2) |		
 | 8/29/2024 |	Projects Presentations II |	Participants | Prepare Demo, notebook and Presentation | Link |
 
 ## Quick Links 
