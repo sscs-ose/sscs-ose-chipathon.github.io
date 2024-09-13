@@ -28,6 +28,7 @@
 | 9/5/2024 |	Projects Presentations III |	Participants | Prepare Demo, notebook and Presentation | [Recording](https://us06web.zoom.us/rec/share/69jqp7_upiKK9cEncjpWAjzXLEFJiXGG5It_VRBGUpGlirz5mM4_UVhTkAs5ZMXW.oZsENBN7E4_hdkZL) |
 | 9/12/2024 |	Projects Presentations IV |	Participants | Prepare Demo, notebook and Presentation | Link |
 
+For links to the slides of individual presentations, see the **Groups** sheet on [GLayout Components Plan - Chipathon 2024](https://docs.google.com/spreadsheets/d/1A_uOKMGtlIYUIwKEbsRSsxBDl7hbfN1CICvdhk3wykc/edit?usp=sharing)
 
 ## Quick Links 
 1. [Glayout Installation Guide](https://docs.google.com/document/d/161Pstk6R0ECvJJNA-SJqtLt_VpfH_s84sYTyvpQQbl8/edit?usp=sharing)
