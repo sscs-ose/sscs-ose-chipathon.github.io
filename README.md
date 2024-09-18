@@ -24,7 +24,11 @@
 | 8/8/2024 | Main Topic: DRC and LVS Checks | Mitch Bailey | Review Layout Verification tools | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQGYaIdh_FgOfkm8rPeIZrC75k8sY8HMquvljGo5FuBkCaTungL5bWFa1DSSClVZw/pub?start=false&loop=false&delayms=3000) and [Recording](https://us06web.zoom.us/rec/play/OhbfLRulBwPIsJp0E6DcF2IA4eD-UaHt628WkmZSaNM-Y1Dl6ZrpTQB2o73FM9WSbGJG1ZX288uAcCMU.pJIGv3sHQnvC2NZX) |
 | 8/15/2024 | Main Topic: Verification |	Tim Edwards | Review Simulation Tools and CACE | [Slides](https://drive.google.com/file/d/13BWRM1gH_l8FQIpBt9abHu8873XtEIEI/view?usp=sharing) and [Recording](https://us06web.zoom.us/rec/share/51TQMvM75-DyuulxK0Nf0jzuT-yAF4ufOE0Zmdy6RhihE2TZYLbB4u9CwMHQAQYz.LxUT23CPxV8EEgZY) |
 | 8/22/2024 |	Projects Presentations I | Participants | Prepare Demo, notebook and Presentation | [Slides](https://docs.google.com/presentation/d/1K-4iWb4d57Bc9me4rl629_2RfBr5ykok/pub?start=false&loop=false&delayms=3000) and [Recording](https://us06web.zoom.us/rec/play/MwtftHzPZlRjmC50kO5vEh8WzzS9k4HXnOXzGP2q5YfGtA70MF_qLdPcXlFQaDWoVkxZYPb9lzMEbRva.YJyqe5yovZuid8Y2) |		
-| 8/29/2024 |	Projects Presentations II |	Participants | Prepare Demo, notebook and Presentation | Link |
+| 8/29/2024 |	Projects Presentations II |	Participants | Prepare Demo, notebook and Presentation | [Recording](https://us06web.zoom.us/rec/share/f6vihYRihl9tvHO2xX6I0V2et5925JdWrYzISmFhRqMigLw1252LJpB-6yOqe5G-.VpV-P3oTqhs6idsj) |
+| 9/5/2024 |	Projects Presentations III |	Participants | Prepare Demo, notebook and Presentation | [Recording](https://us06web.zoom.us/rec/share/69jqp7_upiKK9cEncjpWAjzXLEFJiXGG5It_VRBGUpGlirz5mM4_UVhTkAs5ZMXW.oZsENBN7E4_hdkZL) |
+| 9/12/2024 |	Projects Presentations IV |	Participants | Prepare Demo, notebook and Presentation | Link |
+
+For links to the slides of individual presentations, see the **Groups** sheet on [GLayout Components Plan - Chipathon 2024](https://docs.google.com/spreadsheets/d/1A_uOKMGtlIYUIwKEbsRSsxBDl7hbfN1CICvdhk3wykc/edit?usp=sharing)
 
 ## Quick Links 
 1. [Glayout Installation Guide](https://docs.google.com/document/d/161Pstk6R0ECvJJNA-SJqtLt_VpfH_s84sYTyvpQQbl8/edit?usp=sharing)
