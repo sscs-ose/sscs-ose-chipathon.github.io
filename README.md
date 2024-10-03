@@ -26,7 +26,10 @@
 | 8/22/2024 |	Projects Presentations I | Participants | Prepare Demo, notebook and Presentation | [Slides](https://docs.google.com/presentation/d/1K-4iWb4d57Bc9me4rl629_2RfBr5ykok/pub?start=false&loop=false&delayms=3000) and [Recording](https://us06web.zoom.us/rec/play/MwtftHzPZlRjmC50kO5vEh8WzzS9k4HXnOXzGP2q5YfGtA70MF_qLdPcXlFQaDWoVkxZYPb9lzMEbRva.YJyqe5yovZuid8Y2) |		
 | 8/29/2024 |	Projects Presentations II |	Participants | Prepare Demo, notebook and Presentation | [Recording](https://us06web.zoom.us/rec/share/f6vihYRihl9tvHO2xX6I0V2et5925JdWrYzISmFhRqMigLw1252LJpB-6yOqe5G-.VpV-P3oTqhs6idsj) |
 | 9/5/2024 |	Projects Presentations III |	Participants | Prepare Demo, notebook and Presentation | [Recording](https://us06web.zoom.us/rec/share/69jqp7_upiKK9cEncjpWAjzXLEFJiXGG5It_VRBGUpGlirz5mM4_UVhTkAs5ZMXW.oZsENBN7E4_hdkZL) |
-| 9/12/2024 |	Projects Presentations IV |	Participants | Prepare Demo, notebook and Presentation | Link |
+| 9/12/2024 |	Projects Presentations IV |	Participants | Prepare Demo, notebook and Presentation | [Recording](https://us06web.zoom.us/rec/share/RhCxpJ1MW1pE3q3tmC4xC71jTlDrzOG-299KbDDGBGvE7Titbv_0jWDBQ-JgRuzW.lD0tU-yTM8M2Lj5r) |
+| 9/19/2024 |	Projects Presentations V |	Participants | Prepare Demo, notebook and Presentation | [Recording](https://us06web.zoom.us/rec/share/a7zu69NecWnsh5vcO8h4EhizEdjHCogQ-HZKkZfdYoZZ_ySU0Nwd-bIErgXOCtFw.OhmAp9se_FAzxEUQ) |
+| 9/26/2024 |	Projects Presentations VI |	Participants | Prepare Demo, notebook and Presentation | Link |
+| 10/3/2024 |	Chipathon 2023 Wire Bonding |	Participants | Prepare wire bonding diagrams | Link |
 
 For links to the slides of individual presentations, see the **Groups** sheet on [GLayout Components Plan - Chipathon 2024](https://docs.google.com/spreadsheets/d/1A_uOKMGtlIYUIwKEbsRSsxBDl7hbfN1CICvdhk3wykc/edit?usp=sharing)
 
